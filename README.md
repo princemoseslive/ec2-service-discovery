@@ -14,4 +14,4 @@ If the Lambda Function completes successfully, a new entry will be added to the 
 LambdaSendMail gets triggered by the DynamoDB stream (pull model) and sends an e-mail with the info that has been added to the table.
 If you have received the e-mail and click on the approval URL in the e-mail body, the LambdaApproval Function will be called and add an "approved" column entry to DynamoDB.
 
-![alt text] (https://github.com/princemoseslive/ec2-service-discovery/blob/master/cloudcraft%20(2).png)
+![Alt text] (https://github.com/princemoseslive/ec2-service-discovery/blob/master/cloudcraft%20(2).png)
